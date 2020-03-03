@@ -1,0 +1,6 @@
+# Ignore following directories
+
+old_drafts/
+unusedPlots/
+new_plots/
+figures/
