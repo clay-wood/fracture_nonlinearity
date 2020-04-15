@@ -33,17 +33,9 @@
 \section{Possible Titles}
 \begin{flushleft}
 	\begin{Large}
-	\textbf{\textcolor{gray}{The effect of roughness on the elasticity and permeability of fractured media
-	\linebreak\linebreak\linebreak
-	The relation between changes in permeability and elastic wave velocity in dynamically stressed fractured rocks
-	\linebreak\linebreak\linebreak
-	The relation between transient changes in permeability and elastic wave velocity in dynamically stressed fractured rocks
-	\linebreak\linebreak\linebreak
-	Elastodynamic and poromechanical properties of fractured rock
-	\linebreak\linebreak\linebreak
-	Characterizing the elastodynamic and poromechanical properties of fractured rock with dynamic stressing \linebreak\linebreak\linebreak
-	An experimental investigation of the coupling between elastodynamic and hydraulic properties of naturally fractured rock at the laboratory scale} \linebreak\linebreak\linebreak
-	Elastodynamic and hydraulic properties of fractured and sheared rock: An experimental investigation}
+	\textbf{Elastodynamic and hydraulic properties of fractured and sheared rock: An experimental investigation 
+	\linebreak \linebreak \linebreak
+	\textcolor{red}{Imaging elastodynamic and hydraulic properties of in-situ fractured rock: An experimental investigation considering effects of dynamic stressing and shearing}}
 \end{Large}
 \end{flushleft}
 %\pagebreak
@@ -95,7 +87,7 @@ Seismic and anthropogenic sources of dynamic perturbation both change rock stiff
 \begin{figure*}[ht] 
 	% read manual to see what [ht] means and for other possible options
 	\centering 
-	\includegraphics[width=0.9 \columnwidth]{exp_config.pdf}
+	\includegraphics[width=0.9 \columnwidth]{exp_config}
 	\caption[]{(a) The experiments were conducted in the Penn State Rock and Sediment Mechanics laboratory using the Biaxial Deformation Apparatus (Biax). The Biax has servo-controlled vertical and horizontal pistons and a 10 kHz 24-bit analog to digital data recorder. (b) A pressure vessel was inserted in the Biax and connected to the pressure intensifiers, which control the confining ($P_C$), and sample ($P_{PA}$ and $P_{PB}$ ) fluid pressures. (c) The Westerly granite sample is machine cut into a L-shape and placed between the two loading platens. These loading platens are embedded with piezoelectric transducers (p-polarized) and contain fluid ports for the inlet and outlet flow. The shorter forcing block additionally contains internal conduits to provide fluid flow along the fracture plane. Deionized water was pumped through these narrow channels (45 x 1 mm) and covered by sintered porous fits and fed by five 1.6 mm diameter holes. Sintered porous frits (permeability $\sim 10^{-14}\ m^2$) are press-fit into cavities within the short forcing block to allow homogeneous distribution of fluid. After securing this Single Direct Shear (SDS) configuration, it was sealed inside a latex jacket to separate confining and pore fluids. (d) A photo of the sample after experimentation highlights the degree of roughness of the in-situ fracture.}
 	\label{fig:samplesetup} 
 \end{figure*}
@@ -132,18 +124,18 @@ Ultrasonic waves transmitted through the fracture were recorded continuously in 
 
 \newpage
 
-\begin{figure*}[ht]
-	\centering
-	%	\includegraphics[width=1.0\columnwidth]{PpFlow_fig_v1}
-	%	\includegraphics[width=0.8\columnwidth]{permCalcPlots_p4975_run3b_1Hz}
-	\includegraphics[width=0.4\columnwidth]{permCalcPlots_tall_p4975_run3b_1Hz}
-	\caption[]{Example of dynamic stressing and the corresponding flow rate measurements for a set of pore pressure oscillations in experiment p4975. Note that the plots (a) and (b) are decimated for clarity. (a) Imposed pore pressure oscillation at inlet and fixed pore pressure at the outlet. Pressure conditions before and after the oscillations are identical. (b) Measured flow rates at the fracture inlet (blue line) and outlet (red dashed line). Notice the small time lag ($\leq$ 2 s) between the maxima of the inlet and outlet flow rates. (c) Permeability at steady-state and during the pore pressure oscillation. In the calculation of permeability we impose a threshold between the flow rates to ensure steady-state flow ($Q_{A} - Q_{B}  \leq 5 \% $). It is reasonable to assume that even at relatively low frequency oscillations, there is effectively no steady-state flow during the imposed oscillations.}
-	\label{fig:exp_over}
-\end{figure*}
-
-\textcolor{red}{We measure the effective permeability, ka, by calculating the flow rate over a 2 s window. For pore pressure oscillations, we start 10 s after the oscillation to ensure that permeability measurement is not affected by the Pp oscillation and/or by storage effects. Need to annotate Flow Rate with lines indicating the +- 5\%}
-
-\newpage
+%\begin{figure*}[ht]
+%	\centering
+%	%	\includegraphics[width=1.0\columnwidth]{PpFlow_fig_v1}
+%	%	\includegraphics[width=0.8\columnwidth]{permCalcPlots_p4975_run3b_1Hz}
+%	\includegraphics[width=0.4\columnwidth]{permCalcPlots_tall_p4975_run3b_1Hz}
+%	\caption[]{Example of dynamic stressing and the corresponding flow rate measurements for a set of pore pressure oscillations in experiment p4975. Note that the plots (a) and (b) are decimated for clarity. (a) Imposed pore pressure oscillation at inlet and fixed pore pressure at the outlet. Pressure conditions before and after the oscillations are identical. (b) Measured flow rates at the fracture inlet (blue line) and outlet (red dashed line). Notice the small time lag ($\leq$ 2 s) between the maxima of the inlet and outlet flow rates. (c) Permeability at steady-state and during the pore pressure oscillation. In the calculation of permeability we impose a threshold between the flow rates to ensure steady-state flow ($Q_{A} - Q_{B}  \leq 5 \% $). It is reasonable to assume that even at relatively low frequency oscillations, there is effectively no steady-state flow during the imposed oscillations.}
+%	\label{fig:exp_over}
+%\end{figure*}
+%
+%\textcolor{red}{We measure the effective permeability, ka, by calculating the flow rate over a 2 s window. For pore pressure oscillations, we start 10 s after the oscillation to ensure that permeability measurement is not affected by the Pp oscillation and/or by storage effects. Need to annotate Flow Rate with lines indicating the +- 5\%}
+%
+%\newpage
 
 \begin{figure*}[ht]
 	\centering
@@ -249,12 +241,26 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 	\centering
 	%	\includegraphics[width=0.8\columnwidth]{NS_p4975_run3b_01Hz}
 	%	\includegraphics[width=0.7\columnwidth]{NSbowtie_p4975_run3b_01Hz_Cycle19}
-	\includegraphics[width=0.99\columnwidth]{NS_bowtie_p4975_run3b_01Hz}
+%	\includegraphics[width=0.99\columnwidth]{NS_bowtie_p4975_run3b_01Hz}
+	\includegraphics[width=0.8\columnwidth]{plots_bowtie_p4975_run3b_01Hz}
 	\caption[]{(a) Direct response of normal displacement, flow rate (inlet and outlet), and ultrasonic velocity for the direct path pair during a 0.1Hz 1MPa Normal Stress oscillation. Note the phase delay between the inlet and outlet flow rates. (b) shows how velocity varies as a function of outlet flow rate, Qb, during the last cycle of the normal stress oscillation. The velocity increases with decreasing flow rate during compression and then the opposite trend with tension. The point to make here is that the fracture is continuously changing -- the change in aperture results in change in velocity and flow paths. (c) Ultrasonic velocity as a function of the last full cycle of the normal stress oscillation.}
 	\label{fig:NS_p4975_run3b_01Hz}
 \end{figure*}
 
 \textcolor{red}{Delineate (b) \& (c) to distinguish compression and tension of oscillation.\\}
+
+\newpage
+
+\begin{figure*}[h]
+	\centering
+	%	\includegraphics[width=0.8\columnwidth]{NS_p4975_run3b_01Hz}
+	%	\includegraphics[width=0.7\columnwidth]{NSbowtie_p4975_run3b_01Hz_Cycle19}
+	%	\includegraphics[width=0.99\columnwidth]{NS_bowtie_p4975_run3b_01Hz}
+	\includegraphics[width=0.4\columnwidth]{bowtie_p4975_run3b_01Hz}
+	\caption[]{}
+	\label{fig:bowties}
+\end{figure*}
+
 
 \newpage
 
