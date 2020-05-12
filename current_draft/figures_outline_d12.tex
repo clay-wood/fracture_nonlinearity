@@ -35,7 +35,7 @@
 	\begin{Large}
 	\textbf{Elastodynamic and hydraulic properties of fractured and sheared rock: An experimental investigation 
 	\linebreak \linebreak \linebreak
-	\textcolor{red}{Imaging elastodynamic and hydraulic properties of in-situ fractured rock: An experimental investigation considering effects of dynamic stressing and shearing}}
+	\textcolor{red}{Imaging elastodynamic and hydraulic properties of in-situ fractured rock: An experimental investigation exploring effects of dynamic stressing and shearing}}
 \end{Large}
 \end{flushleft}
 %\pagebreak
@@ -124,19 +124,6 @@ Ultrasonic waves transmitted through the fracture were recorded continuously in 
 
 \newpage
 
-%\begin{figure*}[ht]
-%	\centering
-%	%	\includegraphics[width=1.0\columnwidth]{PpFlow_fig_v1}
-%	%	\includegraphics[width=0.8\columnwidth]{permCalcPlots_p4975_run3b_1Hz}
-%	\includegraphics[width=0.4\columnwidth]{permCalcPlots_tall_p4975_run3b_1Hz}
-%	\caption[]{Example of dynamic stressing and the corresponding flow rate measurements for a set of pore pressure oscillations in experiment p4975. Note that the plots (a) and (b) are decimated for clarity. (a) Imposed pore pressure oscillation at inlet and fixed pore pressure at the outlet. Pressure conditions before and after the oscillations are identical. (b) Measured flow rates at the fracture inlet (blue line) and outlet (red dashed line). Notice the small time lag ($\leq$ 2 s) between the maxima of the inlet and outlet flow rates. (c) Permeability at steady-state and during the pore pressure oscillation. In the calculation of permeability we impose a threshold between the flow rates to ensure steady-state flow ($Q_{A} - Q_{B}  \leq 5 \% $). It is reasonable to assume that even at relatively low frequency oscillations, there is effectively no steady-state flow during the imposed oscillations.}
-%	\label{fig:exp_over}
-%\end{figure*}
-%
-%\textcolor{red}{We measure the effective permeability, ka, by calculating the flow rate over a 2 s window. For pore pressure oscillations, we start 10 s after the oscillation to ensure that permeability measurement is not affected by the Pp oscillation and/or by storage effects. Need to annotate Flow Rate with lines indicating the +- 5\%}
-%
-%\newpage
-
 \begin{figure*}[ht]
 	\centering
 	\includegraphics[width=0.9 \columnwidth]{xcor_fig_v3}
@@ -219,7 +206,7 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\columnwidth]{NS_p4975_run4}
-	\caption{Run 3 of experiment p4975. Trying to figure out how to incorporate this into the main body, maybe move to supplemental.}
+	\caption{Run 3 of experiment p4975.}
 	\label{fig:run4_p4975}
 \end{figure}
 
@@ -256,7 +243,7 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 	%	\includegraphics[width=0.8\columnwidth]{NS_p4975_run3b_01Hz}
 	%	\includegraphics[width=0.7\columnwidth]{NSbowtie_p4975_run3b_01Hz_Cycle19}
 	%	\includegraphics[width=0.99\columnwidth]{NS_bowtie_p4975_run3b_01Hz}
-	\includegraphics[width=0.4\columnwidth]{bowtie_p4975_run3b_01Hz}
+	\includegraphics[width=0.4\columnwidth]{bowtie_p4975_run3b_01Hz_v2}
 	\caption[]{}
 	\label{fig:bowties}
 \end{figure*}
@@ -315,8 +302,8 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.9\columnwidth]{Delc_NS_amp}
-	\includegraphics[width=0.9\columnwidth]{Delc_PP_amp}
+	\includegraphics[width=1\columnwidth]{delc_amp_NS}
+	\includegraphics[width=1\columnwidth]{delc_amp_PP}
 	%\enspace
 	%\includegraphics[width=6cm]{post-frac_amp_array}
 	\caption{Nonlinearity as a function of $ \sigma_{NS} $ oscillation amplitude. Transitioning from post-fracture results to post-shear results, we observe decreased nonlinearity and permeability enhancement. This is probably related to clogging mechanisms.}%
@@ -325,10 +312,11 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 
 \newpage
 
+
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=0.9\columnwidth]{k_NS_amp}
-	\includegraphics[width=0.9\columnwidth]{k_PP_amp}
+	\includegraphics[width=1\columnwidth]{delk_amp_NS}
+	\includegraphics[width=1\columnwidth]{delk_amp_PP}
 	%\enspace
 	%\includegraphics[width=6cm]{post-frac_amp_array}
 	\caption{Change in permeability as a function of $ \sigma_{NS} $ oscillation amplitude. Transitioning from post-fracture results to post-shear results, we observe decreased nonlinearity and permeability enhancement. This is probably related to clogging mechanisms.}%
@@ -338,10 +326,26 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 \newpage
 
 
+\subsection{Relative Change in Velocity and Permeability: Ray Paths}
+
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\columnwidth]{avgDelc_AllNS}
-	\includegraphics[width=1\columnwidth]{avgDelc_AllPP}
+	\includegraphics[width=0.31\columnwidth]{Delc_bypair_f_NS}
+	\includegraphics[width=0.3\columnwidth]{Delc_bypair_s1_NS}
+	\includegraphics[width=0.3\columnwidth]{Delc_bypair_s2_NS}
+	%\enspace
+	%\includegraphics[width=6cm]{post-frac_amp_array}
+	\caption{Nonlinearity as a function of permeability change for $ \sigma_{NS} $ oscillations for each receiver. Transitioning from post-fracture results to post-shear results, we observe decreased nonlinearity and permeability enhancement. \textbf{\textit{Must insert ray path diagram!!}}}%
+	%	\label{fig:delc_plots_ns}
+\end{figure}
+
+\newpage
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\columnwidth]{avgDelc_All_ampsNS}
+	\includegraphics[width=1\columnwidth]{avgDelc_All_ampsPP}
 	%\enspace
 	%\includegraphics[width=6cm]{post-frac_amp_array}
 	\caption{Nonlinearity as a function of permeability change for $ \sigma_{NS} $ and $ P_P $ oscillations averaged over all receivers. Permeability is an averaged measurement across the fracture, so these parameters should exhibit some relationship. I don’t know what this says about the mechanisms at play. Maybe the contact area has been reduced (lower nonlin) and also maybe wear material was mobilized during Pp oscillation sand temporarily increased contact area (higher nonlin). Does this match with reality -- does shearing the fracture increase the contact area? My intuition agrees with this, but it is conceivable that with a complex geometry, this could be more complex.}
@@ -351,7 +355,34 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 \newpage
 
 
-\subsection{Velocity Amplitude Modulation during Perturbations}
+\subsection{Nonlinear Elastodynamic Response: Relative Change in RMS Amplitude}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\columnwidth]{delA_amp_NS}
+	\includegraphics[width=1\columnwidth]{delA_amp_PP}
+	%\enspace
+	%\includegraphics[width=6cm]{post-frac_amp_array}
+	\caption{Nonlinearity as a function of $ \sigma_{NS} $ oscillation amplitude. Transitioning from post-fracture results to post-shear results, we observe decreased nonlinearity and permeability enhancement. This is probably related to clogging mechanisms.}%
+	\label{fig:delA_ns_amp}
+\end{figure}
+
+\newpage
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\columnwidth]{avg_DelA_perm_NS}
+	\includegraphics[width=1\columnwidth]{avg_DelA_perm_PP}
+	%\enspace
+	%\includegraphics[width=6cm]{post-frac_amp_array}
+	\caption{Nonlinearity as a function of permeability change for $ \sigma_{NS} $ and $ P_P $ oscillations averaged over all receivers. Permeability is an averaged measurement across the fracture, so these parameters should exhibit some relationship. I don’t know what this says about the mechanisms at play. Maybe the contact area has been reduced (lower nonlin) and also maybe wear material was mobilized during Pp oscillation sand temporarily increased contact area (higher nonlin). Does this match with reality -- does shearing the fracture increase the contact area? My intuition agrees with this, but it is conceivable that with a complex geometry, this could be more complex.}
+	\label{fig:dela_plots2}
+\end{figure}
+
+\newpage
+
+\subsection{Velocity Amplitude Modulation during Oscillations}
 
 
 
@@ -363,8 +394,8 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\columnwidth]{Dc_NS_amp}
-	\includegraphics[width=1\columnwidth]{Dc_PP_amp}
+	\includegraphics[width=1\columnwidth]{dc_amp_NS}
+	\includegraphics[width=1\columnwidth]{dc_amp_PP}
 	%\enspace
 	%\includegraphics[width=6cm]{post-frac_amp_array}
 	\caption{Velocity amplitude modulation averaged over all receivers ($ dc/c_0 $) as a function of permeability recovery ($ \dot k $) for NS and PP oscillations. 
@@ -374,25 +405,25 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 
 \newpage
 
-\subsection{Recovery of Velocity and Permeability}
-\begin{itemize}
-	\item Although the origins of $ \Delta c/c_0 $ and $ dc/c $ remain unclear, consider empirical evidence from [Rivière et al., 2015, 2016] that they originate from different micro-scale mechanisms 
-\end{itemize}
-
-
-\begin{figure}[ht]
-	\centering
-%	\includegraphics[width=1\columnwidth]{avgRecovBoth_NSPP}
-	\includegraphics[width=1\columnwidth]{Cdot_NS_amp}
-	\includegraphics[width=1\columnwidth]{Cdot_PP_amp}
-	%\enspace
-	%\includegraphics[width=6cm]{post-frac_amp_array}
-	\caption{Velocity recovery averaged over all receivers ($ \overline {\dot c} $) as a function of oscillation amplitude for NS and PP oscillations. 
-	I suspect that the we are not waiting long enough to see a trend like J. Elkhoury and others. His recovery values were ~0.5, which he says is related to the dimensionality of the fracture. Shearing the fracture increases the complexity and maybe changes the slope -- dominated by clogging/moving wear material rather than mated aperture.}
-	\label{fig:cdot_amp}
-\end{figure}
-
-\newpage
+%\subsection{Recovery of Velocity and Permeability}
+%\begin{itemize}
+%	\item Although the origins of $ \Delta c/c_0 $ and $ dc/c $ remain unclear, consider empirical evidence from [Rivière et al., 2015, 2016] that they originate from different micro-scale mechanisms 
+%\end{itemize}
+%
+%
+%\begin{figure}[ht]
+%	\centering
+%%	\includegraphics[width=1\columnwidth]{avgRecovBoth_NSPP}
+%	\includegraphics[width=1\columnwidth]{delk_amp_NS}
+%	\includegraphics[width=1\columnwidth]{delk_amp_PP}
+%	%\enspace
+%	%\includegraphics[width=6cm]{post-frac_amp_array}
+%	\caption{Velocity recovery averaged over all receivers ($ \overline {\dot c} $) as a function of oscillation amplitude for NS and PP oscillations. 
+%	I suspect that the we are not waiting long enough to see a trend like J. Elkhoury and others. His recovery values were ~0.5, which he says is related to the dimensionality of the fracture. Shearing the fracture increases the complexity and maybe changes the slope -- dominated by clogging/moving wear material rather than mated aperture.}
+%	\label{fig:cdot_amp}
+%\end{figure}
+%
+%\newpage
 
 
 %\begin{figure}[ht]
@@ -422,25 +453,40 @@ In subsequent sections we discuss how nonlinear elastodynamic and hydraulic para
 %\newpage
 
 \section{Supplemental}
-\begin{figure}[ht]
+
+\begin{figure*}[ht]
 	\centering
-	\includegraphics[width=1\columnwidth]{Delc_all_NS_all}
-	%\enspace
-	%\includegraphics[width=6cm]{post-frac_amp_array}
-	\caption{Nonlinearity as a function of permeability change for $ \sigma_{NS} $ oscillations for each receiver. Transitioning from post-fracture results to post-shear results, we observe decreased nonlinearity and permeability enhancement. This is probably related to clogging mechanisms.}%
-	\label{fig:delc_plots_ns}
-\end{figure}
+	%	\includegraphics[width=1.0\columnwidth]{PpFlow_fig_v1}
+	%	\includegraphics[width=0.8\columnwidth]{permCalcPlots_p4975_run3b_1Hz}
+	\includegraphics[width=0.4\columnwidth]{permCalcPlots_tall_p4975_run3b_1Hz}
+	\caption[]{Example of dynamic stressing and the corresponding flow rate measurements for a set of pore pressure oscillations in experiment p4975. Note that the plots (a) and (b) are decimated for clarity. (a) Imposed pore pressure oscillation at inlet and fixed pore pressure at the outlet. Pressure conditions before and after the oscillations are identical. (b) Measured flow rates at the fracture inlet (blue line) and outlet (red dashed line). Notice the small time lag ($\leq$ 2 s) between the maxima of the inlet and outlet flow rates. (c) Permeability at steady-state and during the pore pressure oscillation. In the calculation of permeability we impose a threshold between the flow rates to ensure steady-state flow ($Q_{A} - Q_{B}  \leq 5 \% $). It is reasonable to assume that even at relatively low frequency oscillations, there is effectively no steady-state flow during the imposed oscillations.}
+	\label{fig:exp_over}
+\end{figure*}
+
+\textcolor{red}{We measure the effective permeability, ka, by calculating the flow rate over a 2 s window. For pore pressure oscillations, we start 10 s after the oscillation to ensure that permeability measurement is not affected by the Pp oscillation and/or by storage effects. Need to annotate Flow Rate with lines indicating the +- 5\%}
 
 \newpage
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=1\columnwidth]{Delc_all_PP_all}
-	%\enspace
-	%\includegraphics[width=6cm]{post-frac_amp_array}
-	\caption{Nonlinearity as a function of permeability change for $ P_P $ oscillations for each receiver.}
-	\label{fig:delc_plots_pp}
-\end{figure}
+
+%\begin{figure}[ht]
+%	\centering
+%	\includegraphics[width=1\columnwidth]{Delc_all_NS_all}
+%	%\enspace
+%	%\includegraphics[width=6cm]{post-frac_amp_array}
+%	\caption{Nonlinearity as a function of permeability change for $ \sigma_{NS} $ oscillations for each receiver. Transitioning from post-fracture results to post-shear results, we observe decreased nonlinearity and permeability enhancement. This is probably related to clogging mechanisms.}%
+%	\label{fig:delc_plots_ns}
+%\end{figure}
+%
+%\newpage
+%
+%\begin{figure}[ht]
+%	\centering
+%	\includegraphics[width=1\columnwidth]{Delc_all_PP_all}
+%	%\enspace
+%	%\includegraphics[width=6cm]{post-frac_amp_array}
+%	\caption{Nonlinearity as a function of permeability change for $ P_P $ oscillations for each receiver.}
+%	\label{fig:delc_plots_pp}
+%\end{figure}
 
 \newpage
 
