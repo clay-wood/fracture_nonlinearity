@@ -1,0 +1,50 @@
+%++++++++++++++++++++++++++++++++++++++++
+% Don't modify this section unless you know what you're doing!
+\documentclass[letterpaper,10pt]{article}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{rotating}
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+%++++++++++++++++++++++++++++++++++++++++
+\graphicspath{{/Users/clay/Documents/research/jgr20/manuscript/plots/}}
+
+\begin{document}
+
+%\title{The Effect of Roughness on the Elasticity and Permeability of Fractured Media}
+%\author{C. Wood, B. Madera, P. Shokouhi, J. Jin, J. Rivi\`{e}re, D. Elsworth, C. Marone}
+%%\date{\today}
+%\maketitle
+
+\include{titles/titles_d13}
+
+\include{abstract/abstract_d13}
+
+\include{intro/intro_d13}
+
+\include{exp_setup/exp_setup_d13}
+
+%\include{exp_proc/exp_proc_d13}
+
+\include{results/results_d13}
+
+\include{supp/supp_d13}
+
+\bibliography{biblio_d13}
+\bibliographystyle{ieeetr}
+
+\end{document}
