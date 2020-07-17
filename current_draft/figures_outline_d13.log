@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUL 2020 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 JUL 2020 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,7 +657,7 @@ pdf Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/Delc_bypair_all_NS.p
 df>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-Delc_bypair_all_NS.pdf  used on input line 192.
+Delc_bypair_all_NS.pdf  used on input line 193.
 (pdftex.def)             Requested size: 422.77664pt x 576.311pt.
  [26] [27 </Users/clay/Documents/research/jgr20/manuscript/plots/Delc_bypair_al
 l_NS.pdf>]
@@ -668,7 +668,7 @@ pdf Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/Delc_bypair_all_PP.p
 df>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-Delc_bypair_all_PP.pdf  used on input line 201.
+Delc_bypair_all_PP.pdf  used on input line 202.
 (pdftex.def)             Requested size: 422.77664pt x 570.95349pt.
  [28 </Users/clay/Documents/research/jgr20/manuscript/plots/Delc_bypair_all_PP.
 pdf>]
@@ -679,7 +679,7 @@ pdf Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/avgDelc_All_ampsNS.p
 df>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-avgDelc_All_ampsNS.pdf  used on input line 211.
+avgDelc_All_ampsNS.pdf  used on input line 212.
 (pdftex.def)             Requested size: 469.75502pt x 144.32404pt.
 </Users/clay/Documents/research/jgr20/manuscript/plots/avgDelc_All_ampsPP.pdf, 
 id=8047, 694.51346pt x 213.37404pt>
@@ -688,7 +688,7 @@ pdf Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/avgDelc_All_ampsPP.p
 df>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-avgDelc_All_ampsPP.pdf  used on input line 212.
+avgDelc_All_ampsPP.pdf  used on input line 213.
 (pdftex.def)             Requested size: 469.75502pt x 144.32404pt.
  [29
 
@@ -699,12 +699,7 @@ avgDelc_All_ampsPP.pdf  used on input line 212.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/clay/Documents/resear
 ch/jgr20/manuscript/plots/avgDelc_All_ampsPP.pdf): PDF inclusion: multiple pdfs
  with page group included in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 225--227
-
- []
-
-[30
+>] [30
 
 ]
 </Users/clay/Documents/research/jgr20/manuscript/plots/delA_amp_NS.pdf, id=8160
@@ -713,7 +708,7 @@ File: /Users/clay/Documents/research/jgr20/manuscript/plots/delA_amp_NS.pdf Gra
 phic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/delA_amp_NS.pdf>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-delA_amp_NS.pdf  used on input line 240.
+delA_amp_NS.pdf  used on input line 241.
 (pdftex.def)             Requested size: 469.75502pt x 146.79228pt.
 </Users/clay/Documents/research/jgr20/manuscript/plots/delA_amp_PP.pdf, id=8161
 , 686.04431pt x 214.37779pt>
@@ -721,7 +716,7 @@ File: /Users/clay/Documents/research/jgr20/manuscript/plots/delA_amp_PP.pdf Gra
 phic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/delA_amp_PP.pdf>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-delA_amp_PP.pdf  used on input line 241.
+delA_amp_PP.pdf  used on input line 242.
 (pdftex.def)             Requested size: 469.75502pt x 146.79228pt.
  [31
 
@@ -739,7 +734,7 @@ f Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/avg_DelA_perm_NS.pdf
 >
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-avg_DelA_perm_NS.pdf  used on input line 253.
+avg_DelA_perm_NS.pdf  used on input line 254.
 (pdftex.def)             Requested size: 469.75502pt x 145.65892pt.
 </Users/clay/Documents/research/jgr20/manuscript/plots/avg_DelA_perm_PP.pdf, id
 =8278, 688.13023pt x 213.37404pt>
@@ -748,7 +743,7 @@ f Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/avg_DelA_perm_PP.pdf
 >
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-avg_DelA_perm_PP.pdf  used on input line 254.
+avg_DelA_perm_PP.pdf  used on input line 255.
 (pdftex.def)             Requested size: 469.75502pt x 145.65892pt.
  [32
 
@@ -761,24 +756,26 @@ ith page group included in a single page
 >] [33
 
 ]
-</Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_NS.pdf, id=8390, 
+</Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_NS.pdf, id=8392, 
 684.02113pt x 214.37779pt>
 File: /Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_NS.pdf Graph
 ic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_NS.pdf>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-dc_amp_NS.pdf  used on input line 284.
+dc_amp_NS.pdf  used on input line 288.
 (pdftex.def)             Requested size: 469.75502pt x 147.22734pt.
-</Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_PP.pdf, id=8391, 
+</Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_PP.pdf, id=8393, 
 684.02113pt x 214.37779pt>
 File: /Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_PP.pdf Graph
 ic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_PP.pdf>
 Package pdftex.def Info: /Users/clay/Documents/research/jgr20/manuscript/plots/
-dc_amp_PP.pdf  used on input line 285.
+dc_amp_PP.pdf  used on input line 289.
 (pdftex.def)             Requested size: 469.75502pt x 147.22734pt.
-) [34 </Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_NS.pdf> </U
-sers/clay/Documents/research/jgr20/manuscript/plots/dc_amp_PP.pdf
+) [34
+
+ </Users/clay/Documents/research/jgr20/manuscript/plots/dc_amp_NS.pdf> </Users/
+clay/Documents/research/jgr20/manuscript/plots/dc_amp_PP.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/clay/Documents/resear
 ch/jgr20/manuscript/plots/dc_amp_PP.pdf): PDF inclusion: multiple pdfs with pag
@@ -794,7 +791,7 @@ e group included in a single page
 
  (./supp/supp_d13.tex
 </Users/clay/Documents/research/jgr20/manuscript/plots/permCalcPlots_tall_p4975
-_run3b_1Hz.pdf, id=8511, 271.9237pt x 466.66411pt>
+_run3b_1Hz.pdf, id=8513, 271.9237pt x 466.66411pt>
 File: /Users/clay/Documents/research/jgr20/manuscript/plots/permCalcPlots_tall_
 p4975_run3b_1Hz.pdf Graphic file (type pdf)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/permCalcPlots_tall_p
@@ -808,7 +805,7 @@ permCalcPlots_tall_p4975_run3b_1Hz.pdf  used on input line 15.
  </Users/clay/Documents/research/jgr20/manuscript/plots/permCalcPlots_tall_p497
 5_run3b_1Hz.pdf>]
 </Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr1.png,
- id=8530, 1734.48pt x 867.24pt>
+ id=8532, 1734.48pt x 867.24pt>
 File: /Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr1
 .png Graphic file (type png)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr1.
@@ -820,7 +817,7 @@ Shearing_p4975_shr1.png  used on input line 49.
 [37 </Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr1.
 png>]
 </Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr2.png,
- id=8539, 1734.48pt x 867.24pt>
+ id=8541, 1734.48pt x 867.24pt>
 File: /Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr2
 .png Graphic file (type png)
 <use /Users/clay/Documents/research/jgr20/manuscript/plots/Shearing_p4975_shr2.
@@ -848,7 +845,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
 Here is how much of TeX's memory you used:
  8709 strings out of 480608
  140157 string characters out of 5903631
- 413859 words of memory out of 5000000
+ 413508 words of memory out of 5000000
  24303 multiletter control sequences out of 15000+600000
  535669 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -865,10 +862,10 @@ texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on figures_outline_d13.pdf (39 pages, 13043044 bytes).
+Output written on figures_outline_d13.pdf (39 pages, 13034903 bytes).
 PDF statistics:
- 8615 PDF objects out of 8907 (max. 8388607)
- 5449 compressed objects within 55 object streams
+ 8617 PDF objects out of 8907 (max. 8388607)
+ 5451 compressed objects within 55 object streams
  104 named destinations out of 1000 (max. 500000)
  246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
