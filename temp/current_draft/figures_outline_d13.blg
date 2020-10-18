@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: figures_outline_d13.aux
+A level-1 auxiliary file: titles/titles_d13.aux
+A level-1 auxiliary file: abstract/abstract_d13.aux
+A level-1 auxiliary file: intro/intro_d13.aux
+A level-1 auxiliary file: exp_setup/exp_setup_d13.aux
+A level-1 auxiliary file: results/results_d13.aux
+A level-1 auxiliary file: supp/supp_d13.aux
+A level-1 auxiliary file: conc/conc_d13.aux
+The style file: ieeetr.bst
+Database file #1: biblio_d13.bib
+You've used 2 entries,
+            1876 wiz_defined-function locations,
+            502 strings with 3918 characters,
+and the built_in function-call counts, 652 in all, are:
+= -- 71
+> -- 8
+< -- 0
++ -- 4
+- -- 2
+* -- 44
+:= -- 90
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 34
+empty$ -- 60
+format.name$ -- 2
+if$ -- 163
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 2
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 33
+stack$ -- 0
+substring$ -- 64
+swap$ -- 20
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 3
+write$ -- 22
